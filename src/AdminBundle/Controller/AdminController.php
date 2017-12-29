@@ -27,4 +27,15 @@ class AdminController extends Controller
         ));
     }
 
+    /**
+     * @Route("/show")
+     */
+    public function showAction()
+    {
+        return $this->render('AdminBundle:Admin:create.html.twig', array(
+            // ...
+        ));
+    }
+
+
 }
