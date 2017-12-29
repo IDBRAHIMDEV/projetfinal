@@ -76,10 +76,6 @@ class ComposerStaticInitb61c9ef1dcb3f2bb76b7c467ada70b45
         array (
             'Composer\\CaBundle\\' => 18,
         ),
-        'A' => 
-        array (
-            'AppBundle\\' => 10,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -215,10 +211,10 @@ class ComposerStaticInitb61c9ef1dcb3f2bb76b7c467ada70b45
         array (
             0 => __DIR__ . '/..' . '/composer/ca-bundle/src',
         ),
-        'AppBundle\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src/AppBundle',
-        ),
+    );
+
+    public static $fallbackDirsPsr4 = array (
+        0 => __DIR__ . '/../..' . '/src',
     );
 
     public static $prefixesPsr0 = array (
@@ -287,6 +283,7 @@ class ComposerStaticInitb61c9ef1dcb3f2bb76b7c467ada70b45
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInitb61c9ef1dcb3f2bb76b7c467ada70b45::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitb61c9ef1dcb3f2bb76b7c467ada70b45::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInitb61c9ef1dcb3f2bb76b7c467ada70b45::$fallbackDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInitb61c9ef1dcb3f2bb76b7c467ada70b45::$prefixesPsr0;
             $loader->classMap = ComposerStaticInitb61c9ef1dcb3f2bb76b7c467ada70b45::$classMap;
 

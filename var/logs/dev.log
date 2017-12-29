@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 [2017-12-29 13:33:53] console.ERROR: Error thrown while running command "generate:bundle FrontBundle". Message: "Too many arguments, expected arguments "command"." {"error":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Too many arguments, expected arguments \"command\". at /usr/local/bin/projetfinal/vendor/symfony/symfony/src/Symfony/Component/Console/Input/ArgvInput.php:187)","command":"generate:bundle FrontBundle","message":"Too many arguments, expected arguments \"command\"."} []
 [2017-12-29 13:33:53] console.DEBUG: Command "generate:bundle FrontBundle" exited with code "1" {"command":"generate:bundle FrontBundle","code":1} []
+=======
+[2017-12-29 13:27:57] console.DEBUG: Command "generate:controller" exited with code "1" {"command":"generate:controller","code":1} []
+>>>>>>> dca70d13d763bf07579a896fc62572c2e33acce9

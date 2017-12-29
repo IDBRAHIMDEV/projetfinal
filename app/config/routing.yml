@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 front:
     resource: "@FrontBundle/Controller/"
+=======
+admin:
+    resource: "@AdminBundle/Controller/"
+>>>>>>> dca70d13d763bf07579a896fc62572c2e33acce9
     type:     annotation
     prefix:   /
 
